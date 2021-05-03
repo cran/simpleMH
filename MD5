@@ -1,0 +1,14 @@
+e7aa1abf5ffb52bf22e39c1896e708c3 *DESCRIPTION
+c8c3f6ba6fb9411b81941145db3ac296 *NAMESPACE
+e9d2b580dd400013890fea767bda94b9 *R/simpleMH.R
+2af8f2fafaa65d73df44dc23bb570881 *README.md
+d5b40f4c3cd30211d1ec30e8ba6fdd7e *build/vignette.rds
+502b3b6c2515e83c339a86df634ce6ff *inst/doc/FAQ.R
+85585b070ddb46787d18e9dedcf35512 *inst/doc/FAQ.Rmd
+280aae893b20e820bbaedda541304075 *inst/doc/FAQ.html
+2fd3c012f2f4905c75ad1e2f120b3efb *man/figures/README-coda-plots-1.png
+5781e34395ad0fff72dfb2d9e0f6dbe0 *man/figures/README-sampling-landscape-1.png
+7415c5177e68af08a573cf35f16cd405 *man/simpleMH.Rd
+5eedc06396253f98a76ed1ba7e218358 *tests/testthat.R
+8d5b6916320ed7518299c014778a5af0 *tests/testthat/test-simpleMH.R
+85585b070ddb46787d18e9dedcf35512 *vignettes/FAQ.Rmd
