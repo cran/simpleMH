@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -27,6 +27,6 @@ res <- simpleMH(
 )
 summary(res$samples)
 
-## ---- eval = identical(Sys.getenv("IN_PKGDOWN"), "true")----------------------
+## ----eval = identical(Sys.getenv("IN_PKGDOWN"), "true")-----------------------
 #  plot(res$samples)
 

@@ -1,6 +1,6 @@
 Package: simpleMH
 Title: Simple Metropolis-Hastings MCMC Algorithm
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Hugo",
            family = "Gruson",
@@ -18,9 +18,11 @@ Encoding: UTF-8
 Language: en-GB
 RoxygenNote: 7.1.1.9001
 VignetteBuilder: knitr
+URL: https://github.com/Bisaloo/simpleMH
+BugReports: https://github.com/Bisaloo/simpleMH/issues
 NeedsCompilation: no
-Packaged: 2021-05-02 14:28:51 UTC; hugo
+Packaged: 2024-02-06 18:00:49 UTC; hugo
 Author: Hugo Gruson [aut, cre, cph] (<https://orcid.org/0000-0002-4094-1476>)
 Maintainer: Hugo Gruson <hugo.gruson+R@normalesup.org>
 Repository: CRAN
-Date/Publication: 2021-05-03 08:00:02 UTC
+Date/Publication: 2024-02-06 18:20:02 UTC

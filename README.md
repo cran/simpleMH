@@ -7,15 +7,17 @@
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![R-CMD-check](https://github.com/Bisaloo/simpleMH/workflows/R-CMD-check/badge.svg)](https://github.com/Bisaloo/simpleMH/actions)
+[![R-CMD-check](https://github.com/Bisaloo/simpleMH/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Bisaloo/simpleMH/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/Bisaloo/simpleMH/branch/main/graph/badge.svg)](https://codecov.io/gh/Bisaloo/simpleMH?branch=main)
+coverage](https://codecov.io/gh/Bisaloo/simpleMH/branch/main/graph/badge.svg)](https://app.codecov.io/gh/Bisaloo/simpleMH?branch=main)
+[![CRAN
+status](https://www.r-pkg.org/badges/version-ago/simpleMH)](https://CRAN.R-project.org/package=simpleMH)
 <!-- badges: end -->
 
 This package offers a very bare-bones interface to use the
 Metropolis-Hastings Monte Carlo Markov Chain algorithm. It is suitable
 for teaching and testing purposes. For more advanced uses, you can check
-out the [mcmcensemble](https://bisaloo.github.io/mcmcensemble/) or
+out the [mcmcensemble](https://hugogruson.fr/mcmcensemble/) or
 [adaptMCMC](https://github.com/scheidan/adaptMCMC) packages, which are
 designed with a very similar interface, but often allow better
 convergence, especially for badly scaled problems or highly correlated
@@ -23,11 +25,17 @@ set of parameters.
 
 ## Installation
 
-You can install the development version from GitHub:
+You can install this package from CRAN:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("Bisaloo/simpleMH")
+install.packages("simpleMH")
+```
+
+or from my [r-universe](https://bisaloo.r-universe.dev/) (development
+version):
+
+``` r
+install.packages("simpleMH", repos = "https://bisaloo.r-universe.dev")
 ```
 
 ## Example
